@@ -1,0 +1,7 @@
+.listIn {
+    text-align: center;
+}
+.listIn > input {
+    width: 70%;
+    min-width: 40px;
+}
