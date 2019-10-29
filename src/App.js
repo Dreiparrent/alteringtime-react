@@ -28,7 +28,7 @@ class App extends Component {
 		 */
 		this.state = {
 			time: 50,
-			otherVar: 'test'
+			//otherVar: 'test'
 		};
 	}
 
@@ -37,7 +37,7 @@ class App extends Component {
 			if (this.state.time > 0) {
 				let curTime = this.state.time;
 				curTime -= 1;
-				// who not do `this.state.time = curTime`
+				// why not do `this.state.time = curTime`
 				this.setState(
 					{
 						time: curTime
