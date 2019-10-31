@@ -1,0 +1,14 @@
+.outer {
+    margin: 15px;
+}
+.outer > h3 {
+    margin-bottom: 30px;
+}
+.buttonGroup {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.buttonGroup > label {
+    width: auto;
+    cursor: pointer;
+}
