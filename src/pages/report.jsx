@@ -2,9 +2,14 @@ import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom';
 
 export default class Report extends Component {
+
+    /**
+     * note all of constructor's properties are automatically accessable as `this.property`
+     */
+
     constructor(props) {
         super(props);
-        console.log(props.correct);
+        console.log(props.correct());
     }
 
     /**
