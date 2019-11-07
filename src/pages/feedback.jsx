@@ -12,6 +12,13 @@ export default class Feedback extends Component {
             fun: 1
         }
         console.log(props);
+        /**
+         * {
+         *  correct: 10 
+         *  urlPath=: "practice"
+         *  anotherProp: false
+         * }
+         */
     }
 
     /**

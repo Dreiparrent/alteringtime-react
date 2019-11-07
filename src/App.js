@@ -89,7 +89,7 @@ class App extends Component {
      */
     justAnExample = (props) => {
         return (
-            <Route path="/practice/report" component={Practice2}>
+            <Route path="/practice/report">
                 <Report correct={props.cor}></Report>
             </Route>
         )
@@ -112,8 +112,8 @@ class App extends Component {
                     </Route>
                     <this.justAnExample cor={this.practiceCorrect}/>
                     {/* this is an an example of how you can use functions as well as classes to insert elements in the render */}
-                    <Route path="/practice/feedback">
-                        <Feedback correct={Practice} />
+                    <Route path="/practice/feedback" >
+                        <Feedback correct={10} />
                     </Route>
                 </div>
             </Router>
